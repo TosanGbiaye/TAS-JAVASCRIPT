@@ -1,0 +1,29 @@
+name: Git Actions Demo
+on: [push]
+jobs:
+ Explore-GitHub-Actions:
+   runs-on: windows-latest
+   steps:
+     - uses: actions/checkout@v2
+     - run: echo "The job was automatically triggered by a ${{ github.event_name }} event"
+     - run: python main.py
+     - run: node javascriptCodingChallenge_Tosan_Kehinde\challenge1.js
+     - run: node javascriptCodingChallenge_Tosan_Kehinde\challenge2.js
+     - run: node javascriptCodingChallenge_Tosan_Kehinde\challenge3.js
+     - run: node javascriptCodingChallenge_Tosan_Kehinde\challenge4.js
+     - run: node javascriptCodingChallenge_Tosan_Kehinde\challenge5.js
+     - run: node javascriptCodingChallenge_Tosan_Kehinde\challenge6.js
+     - run: node javascriptCodingChallenge_Tosan_Kehinde\challenge7.js
+     - run: node javascriptCodingChallenge_Tosan_Kehinde\challenge8.js
+     - run: node javascriptCodingChallenge_Tosan_Kehinde\challenge9.js
+     - run: node javascriptCodingChallenge_Tosan_Kehinde\challenge10.js
+     - run: node javascriptTask\task5.js
+     - run: node javascriptTask\task6.js
+     - run: node javascriptTask\task7.js
+     - run: node javascriptTask\task8.js
+     - run: node javascriptTask\task9.js
+     - run: node javascriptTask\task10.js
+     - run: node javascriptTask\task11.js
+     - run: node javascriptTask\task12.js
+     - run: node javascriptTask\task13.js
+     - run: node javascriptTask\task14.js
