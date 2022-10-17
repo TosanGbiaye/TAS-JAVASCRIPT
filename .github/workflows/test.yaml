@@ -6,7 +6,6 @@ jobs:
    steps:
      - uses: actions/checkout@v2
      - run: echo "The job was automatically triggered by a ${{ github.event_name }} event"
-     - run: python main.py
      - run: node javascriptCodingChallenge_Tosan_Kehinde\challenge1.js
      - run: node javascriptCodingChallenge_Tosan_Kehinde\challenge2.js
      - run: node javascriptCodingChallenge_Tosan_Kehinde\challenge3.js
@@ -27,3 +26,4 @@ jobs:
      - run: node javascriptTask\task12.js
      - run: node javascriptTask\task13.js
      - run: node javascriptTask\task14.js
+     
